@@ -1,3 +1,6 @@
+ <?php
+ session_start(); //mulai session
+ ?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -62,7 +65,7 @@
 </html>
 
 <?php
-session_start(); //mulai session
+
 
 //cek terlebih dahulu apakah user sudah submit atau belum
 //gunakan method isset
